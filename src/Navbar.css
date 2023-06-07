@@ -1,0 +1,68 @@
+.navbar{
+    height:50px;
+    background-color: rgb(10, 10, 10);
+    font-family: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    text-decoration: none;
+    color: aliceblue;
+}
+.SubHeading{
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+.AddStudentButton{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+.StudentTable{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+body{
+    background-image: linear-gradient( 45deg ,#7462ff ,rgb(145, 149, 144) , #d61dcd ,#d2001a , #23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+@keyframes color{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+  button{
+    width: 360px;
+    height:120px ;
+    background-color: cyan;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    border: 0px cyan;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 15px   rgb(5, 166, 247);
+   
+   }
+   button:hover {
+     background:  rgb(0, 187, 255);
+     letter-spacing: 0.25em;
+     box-shadow: 0 0 45px  rgb(0, 187, 255);
+     text-transform: uppercase;
+    font-weight:500;
+   }
